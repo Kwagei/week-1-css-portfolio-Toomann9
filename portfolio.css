@@ -27,13 +27,19 @@ nav ul li a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
+    background: #a8a1a1;
+    padding: 8px 12px;
+    display: inline-block;
+    margin: 6px 0;
+    border-radius: 5px;
 }
 nav ul li a:hover{
-    color: rgb(199, 108, 5);
+    color: rgb(5, 124, 188);
+    background-color: #212121;
 }
 .detel{
     margin-left: 8%;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 .detel h1{
     font-size: 50px;
@@ -102,4 +108,24 @@ span:hover{
 .logo:hover{
     box-shadow: 5px 4px 3px 2px rgb(207, 204, 2);
     border: 2px solid rgb(233, 191, 2);
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    /* z-index: 1; */
+}
+.nav-links::-webkit-scrollbar{
+    display: none;
+}
+.my-projects{
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 18px 13px 18px 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 123, 152);
+    background: transparent;
 }
